@@ -9,7 +9,7 @@ SEPARATOR	\(|\)|;|,|:
 COMPARISON_OP	<=|>=|==|!=|>|<
 MATH_OP	=|\+|-|\*|\/|\^
 LOGICAL_OP	(and|or|not)
-COMMENT	#.*\n
+COMMENT	//.*\n
 IDENTIFIER	[a-zA-Z_][a-zA-Z0-9_]*
 NUM_LIT	[0-9]+(\.[0-9]+)?
 
